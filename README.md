@@ -2,6 +2,12 @@
 ## M3U8 Stream Video Downloader
 ###### Usage
 
+Include to project
+```
+require '../engine/engine.php';
+Master::Setup($URL_TO_DOWNLOAD); 
+```
+
 Getting Files
 ```
 if(Master::GetResolution() && Master::GetFiles()) {
